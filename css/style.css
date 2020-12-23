@@ -3,6 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* .button1{
+    float: inline-end;
+} */
+/* .button2 {
+    float: ;
+} */
+.menu{
+    position: fixed;
+    float: right;
+    right: 10px;
+    font-size: 20px;
+    z-index: 1;
+    cursor: pointer;
+    background-color: #343a4080;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.menu:hover{
+    background-color: #212529;
+}
+/* .menu2{
+    position: fixed;
+    float: right;
+    bottom: 10px;
+    font-size: 16px;
+    z-index: 1;
+    cursor: pointer;
+    background-color: #343a4080;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.menu2:hover{
+    background-color: #212529;
+} */
+
+
+
+
 
 .first{
     background-image: url(../image/bg-masthead.jpg);
@@ -32,7 +72,7 @@
 }
 .second{
   text-align: center;
-  padding: 8rem 0;
+  padding: 5rem 0;
 }
 .second h2{
     color: #212529;
@@ -135,7 +175,7 @@
 
 .third{
     background-color: #1d809f;
-    padding: 16rem 0;
+    padding: 14rem 0;
     overflow: hidden;
 }
 .third-text{
@@ -167,4 +207,151 @@
 
 }.third .all .box .mb{
     padding: 20px 25px;
+}
+
+.fifth{
+    margin: 5rem 0;
+}
+.fifth-text{
+    text-align: center;
+}
+.fifth-text h3{
+    color: #ecb807;
+    font-size: 16px;
+}
+.fifth-text h2{
+    color: #212529;
+    font-size: 48px;
+}
+.fifth .box{
+    float: left;
+    width: 50%;
+    transition: .4s;
+    position: relative;
+    cursor: pointer;
+}
+.fifth .box img{
+    width: 100%;
+}
+
+.fifth .all{
+    width: 80%;
+    margin: 40px auto;
+}
+.fifth .box-text1{
+    position: absolute;
+    bottom: 25%;
+    left: 60px;
+}
+.fifth .box-text1 h2{
+    color: #fff;
+    font-size: 32px;
+    margin: 0 0 8px;
+}
+.fifth .box-text1 p{
+    color: #fff;
+    font-size: 18px;
+}
+
+.fifth .box-text2{
+    position: absolute;
+    bottom: 25%;
+    left: 60px;
+}
+.fifth .box-text2 h2{
+    color: #fff;
+    font-size: 32px;
+    margin: 0 0 8px;
+}
+.fifth .box-text2 p{
+    color: #fff;
+    font-size: 19.2px;
+}
+.fifth .box-text3{
+    position: absolute;
+    bottom: 25%;
+    left: 60px;
+}
+.fifth .box-text3 h2{
+    color: #fff;
+    font-size: 32px;
+    margin: 0 0 8px;
+}
+.fifth .box-text3 p{
+    color: #fff;
+    font-size: 19.2px;
+}
+.fifth .box-text4{
+    position: absolute;
+    bottom: 25%;
+    left: 60px;
+}
+.fifth .box-text4 h2{
+    color: #fff;
+    font-size: 32px;
+    margin: 0 0 8px;
+}
+.fifth .box-text4 p{
+    color: #fff;
+    font-size: 19.2px;
+}
+
+.fifth .box:hover{
+    transform: scale(0.9);
+}
+
+.empty{
+    clear: both;
+}
+.overlay1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1d809f;
+    opacity: 0;
+    transition: .4s;
+}
+.fifth .box:hover .overlay1{
+    opacity: .8;
+}
+.overlay2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1d809f;
+    opacity: 0;
+    transition: .4s;
+}
+.fifth .box:hover .overlay2{
+    opacity: .8;
+}
+.overlay3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1d809f;
+    opacity: 0;
+    transition: .4s;
+}
+.fifth .box:hover .overlay3{
+    opacity: .8;
+}
+.overlay4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1d809f;
+    opacity: 0;
+    transition: .4s;
+}
+.fifth .box:hover .overlay4{
+    opacity: .8;
 }
